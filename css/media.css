@@ -13,16 +13,27 @@
 
   /* Section */
 
-  .features-list {
+  /* .features-list {
     display: flex;
     flex-wrap: wrap;
-  }
+  } */
 
   .features-title {
     text-align: start;
   }
 
   .features-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  /* Section 3 */
+
+  .teamcards-list {
+    width: 768px;
+  }
+
+  .teamcards-item {
+    margin-right: 24px;
     width: calc((100% - 24px) / 2);
   }
 }
