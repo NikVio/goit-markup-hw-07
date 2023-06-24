@@ -11,7 +11,37 @@
     max-width: 766px;
   }
 
-  /* Section */
+  /* Hero */
+
+  .hero {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg_img/hero-bg-tablet.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg_img/hero-bg-tablet-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto 36px;
+  }
+
+  /* Section 1 */
 
   .features-title {
     text-align: start;
@@ -51,12 +81,53 @@
     max-width: 168px;
     height: 88px;
   }
+
+  .modal {
+    width: 408px;
+  }
 }
 
 @media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
   }
+
+  /* Hero */
+
+  .hero {
+    padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg_img/hero_bg.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/bg_img/hero-bg-2x.jpg);
+    }
+  }
+
+  .hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    max-width: 496px;
+    margin: 0 auto 48px;
+    text-align: center;
+  }
+
+  .hero-btn {
+  }
+
+  /* Section 1 */
 
   .features {
     padding-top: 120px;
@@ -71,8 +142,15 @@
     width: calc((100% - 72px) / 4);
   }
 
-  .media-wrap {
-    display: block;
+  .features-wrap {
+    width: 264px;
+    height: 112px;
+    background-color: var(--features-icon-bgc);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
   }
 
   .features-title {
@@ -93,7 +171,26 @@
   /* Section 2 */
 
   .section {
+    padding-bottom: 120px;
     display: block;
+  }
+
+  .section-list {
+    display: flex;
+    gap: 24px;
+  }
+
+  .section-item {
+    border: 1px solid #e7e9fc;
+    width: calc((100% - 48px) / 3);
+  }
+
+  .section-title {
+    margin-bottom: 72px;
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.72px;
   }
 
   /* Section 3 */
