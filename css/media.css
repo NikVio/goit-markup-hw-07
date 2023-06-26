@@ -7,6 +7,16 @@
 }
 
 @media screen and (min-width: 426px) {
+  .mob-menu-phone-link {
+    font-size: 36px;
+  }
+
+  .mob-menu-soc-list {
+    gap: 56px;
+  }
+}
+
+@media screen and (min-width: 426px) {
   .modal {
     width: 392px;
   }
@@ -136,6 +146,10 @@
     text-align: start;
   }
 
+  .teamcards-list {
+    gap: 72px 24px;
+  }
+
   .features-item {
     width: calc((100% - 24px) / 2);
   }
@@ -149,6 +163,10 @@
   .teamcards-list {
     max-width: 100%;
     gap: 64px 24px;
+  }
+
+  .teamcards-item {
+    width: calc((100% - 24px) / 2);
   }
 
   /* Section 4 */

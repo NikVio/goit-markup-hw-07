@@ -241,20 +241,26 @@ img {
   color: var(--link-color);
 }
 
+.link-color {
+  color: var(--link-hover-color);
+}
+
 .mob-menu-link:focus {
   color: var(--link-hover-color);
 }
 
-.mob-menu-address-link {
-  font-size: 36px;
+.mob-menu-phone-link {
+  font-size: 24px;
   font-weight: 700;
   line-height: 1.11;
   letter-spacing: 0.72px;
   color: #4d5ae5;
   font-style: normal;
+  display: block;
+  margin-bottom: 40px;
 }
 
-.mail {
+.mob-menu-mail-link {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -264,14 +270,15 @@ img {
 }
 
 .mob-menu-address-list {
-  display: flex;
+  /* display: flex;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 40px; */
 }
 
 .mob-menu-soc-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
+  gap: 30px;
   margin-top: 48px;
 }
 
