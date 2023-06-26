@@ -646,10 +646,18 @@ img {
 
 .project-title {
   margin-bottom: 8px;
+  color: var(--title-color);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.4px;
 }
 
 .project-text {
   color: var(--body-text-color);
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 /* Footer */
