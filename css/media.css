@@ -286,10 +286,12 @@
   }
 
   .features-item {
+    width: 264px;
     width: calc((100% - 72px) / 4);
   }
 
   .features-wrap {
+    height: 112px;
     background-color: var(--features-icon-bgc);
     border-radius: 4px;
     display: flex;
@@ -299,7 +301,6 @@
   }
 
   .features-title {
-    width: 264px;
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -307,14 +308,11 @@
   }
 
   .features-text {
+    font-weight: inherit;
     margin-bottom: 0;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.32px;
-  }
-
-  .text {
-    font-weight: normal;
   }
 
   /* Section 2 */
